@@ -2,23 +2,24 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lahlou Arkam - Cours de Programmation</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #eef2f3;
       text-align: center;
-      padding: 50px;
+      padding: 30px;
     }
 
     h1 {
-      font-size: 60px;
+      font-size: 48px;
       color: #222;
       margin-bottom: 20px;
     }
 
     p {
-      font-size: 22px;
+      font-size: 20px;
       color: #444;
       margin-bottom: 30px;
     }
@@ -31,12 +32,14 @@
     }
 
     a.button {
+      display: inline-block;
       background-color: #1877F2;
       color: white;
-      padding: 15px 30px;
+      padding: 15px 25px;
       text-decoration: none;
       font-size: 18px;
       border-radius: 8px;
+      white-space: nowrap;
     }
 
     a.button:hover {
@@ -61,13 +64,33 @@
       font-size: 18px;
       color: #333;
     }
+
+    /* Responsive design */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      a.button {
+        font-size: 16px;
+        padding: 12px 20px;
+      }
+
+      .cours ul {
+        font-size: 16px;
+      }
+    }
   </style>
 </head>
 <body>
 
   <h1>Lahlou Arkam</h1>
-  <p>Je commence à étudier la programmation et je partage mes cours pour les débutants.<br>
-     Rejoins-moi pour apprendre étape par étape !</p>
+  <p>En tant que développeur, je mets à disposition des cours gratuits de programmation destinés aux débutants.
+Commence ton apprentissage dès aujourd'hui, étape par étape !</p>
 
   <img src="https://i.postimg.cc/H8GwzWN8/file-000000008e6461fab7c0c90f7e6c96c4.png" alt="Image de présentation">
 
@@ -89,5 +112,3 @@
 
 </body>
 </html>
-
-
